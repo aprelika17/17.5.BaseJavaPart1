@@ -1,13 +1,13 @@
 public class BaseTests {
     public static void main(String[] args) {
-        AllDataTypes ();
-        MathOperators();
-        LogicalAndCompareOperators();
-        OverFullExamples();
-        IfElse ();
+        allDataTypes ();
+        mathOperators();
+        logicalAndCompareOperators();
+        overFullExamples();
+        ifElse ();
     }
 
-    public static void AllDataTypes () {
+    public static void allDataTypes () {
 
         boolean exBool = true; // true, false
         char exCharacter = 'v'; // символ UTF-16 (буквы и цифры)
@@ -23,7 +23,7 @@ public class BaseTests {
         String name = "Пример string"; // Буквы
     }
 
-    public static void MathOperators() {
+    public static void mathOperators() {
         int a = 10;
         int b = 5;
 
@@ -51,7 +51,7 @@ public class BaseTests {
         System.out.println("Operation result % with int and long: " + (b%d));
     }
 
-    public static void LogicalAndCompareOperators () {
+    public static void logicalAndCompareOperators () {
         boolean result1 = ((3 < 2) || (4 < 2));
         boolean result2 = 3 >= 2;
         boolean result3 = 3 > 2;
@@ -69,7 +69,7 @@ public class BaseTests {
         System.out.println("Operator example && " + result7);
     }
 
-    public static void OverFullExamples () {
+    public static void overFullExamples () {
         int over1 = 2147483647;
         System.out.println("Overfull example of maximum with type int: " + (over1+1000));
 
@@ -83,7 +83,7 @@ public class BaseTests {
         System.out.println("Overfull example of minimum with type long: " + (over4-over1));
     }
 
-    public static void IfElse () {
+    public static void ifElse () {
         if (1!=2 && 2>1) {
             System.out.println("True expression");
         }
